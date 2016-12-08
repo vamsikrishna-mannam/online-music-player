@@ -1,0 +1,56 @@
+﻿body {
+    /*background-color: #4A96AD;*/
+    background-image: url('images/background.png');
+    background-size:cover;
+    
+}
+.container{
+    border-radius:25px;
+    /*border:5px solid red;*/
+    /*background-color:#FFF056;*/
+    margin-top:160px;
+    width:1000px;
+    height:250px;
+    color:white;
+    /*color:#191919;*/
+    font-family:'Century Schoolbook';
+    font-size:20px;
+    margin-left:180px;
+}
+.pic{
+    margin-top:20px;
+    float:left
+}
+.player{
+    float:right;
+    margin:10px;
+}
+.song{
+    width:600px;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden;
+}
+.song-slider{
+    width:500px;
+}
+.current-time{
+    float:left;
+    font-size:16px;
+}
+.total-time{
+    float:right;
+    font-size:16px;
+}
+.images{
+    clear:both;
+    display:table;
+}
+.volume-slider{
+    width:175px;
+    margin-left:5px;
+}
+.images  *{
+    vertical-align:middle;
+    margin-right:5px;
+}
